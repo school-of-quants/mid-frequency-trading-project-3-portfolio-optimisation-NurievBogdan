@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "equity_project"
 version = "0.1.0"
-description = "Project 3 example"
-authors = ["Евсин Игорь Русланович <igor.evsin@squants.education>"]
+description = "Project 3 - mid-frequency quantitative equity strategy"
+authors = ["Student"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -17,7 +17,8 @@ catboost = "^1.2.10"
 pyyaml = "^6.0.3"
 pyarrow = "^23.0.1"
 kaleido = "^1.2.0"
-
+matplotlib = "^3.9.0"
+nbformat = "^5.10.4"
 
 [build-system]
 requires = ["poetry-core"]

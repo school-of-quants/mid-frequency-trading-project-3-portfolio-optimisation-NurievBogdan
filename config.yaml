@@ -1,7 +1,26 @@
 train_start_date: "2017-01-01"
-train_end_date: "2021-12-31"
-backtest_start_date: "2022-01-01"
+train_end_date: "2022-12-31"
+backtest_start_date: "2023-01-01"
 backtest_end_date: "2025-12-31"
 
 init_cash: 20000000
 fees: 0.001
+benchmark_ticker: "SPY"
+
+prediction_horizon: 10
+rebalance_frequency: "W-FRI"
+top_n: 50
+max_position_weight: 0.03
+max_gross_exposure: 0.95
+
+purge_days: 10
+embargo_pct: 0.01
+n_splits: 5
+cpcv_n_groups: 6
+cpcv_n_test_groups: 2
+cpcv_max_combinations: 15
+run_cpcv: true
+
+random_seed: 42
+debug: false
+debug_n_tickers: 80
